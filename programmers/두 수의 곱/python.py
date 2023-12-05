@@ -1,5 +1,4 @@
 def solution(num1, num2):
-    answer = 0
     '''
     if not (0 <= num1 <= 100 and 0 <= num2 <= 100):
         exit()
