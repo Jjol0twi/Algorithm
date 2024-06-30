@@ -5,6 +5,4 @@ rs = s[:(k-1)]
 del s[:(k-1)]
 if (n-k)%2==0:
     rs.reverse()
-    print(''.join([*s,*rs]))
-else:
-    print(''.join([*s,*rs]))
+print(''.join([*s,*rs]))
